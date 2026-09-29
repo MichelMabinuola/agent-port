@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "name": "Michael Mabinuola",
+    "title": "Database & Linux Performance Engineer",
+    "location": "Seoul, South Korea",
+    "tagline": "I make memory behave."
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "about",
+      "title": "About",
+      "icon": "🧠",
+      "summary": "Database internals and Linux memory management, with an eye on the page cache.",
+      "paragraphs": [
+        "Placeholder bio paragraph. I work on database engines and the Linux memory subsystems underneath them — the boundary where query execution meets cgroups, swap, and the page cache.",
+        "Placeholder bio paragraph. Most of my time goes into making systems predictable under memory pressure, which is also why this site evicts itself when you resize the window."
+      ]
+    },
+    {
+      "id": "experience",
+      "kind": "experience",
+      "title": "Experience",
+      "icon": "🗂️",
+      "summary": "Placeholder summary of a database and Linux performance career.",
+      "items": [
+        {
+          "role": "Placeholder Role — Performance Engineer",
+          "org": "SingleStore",
+          "period": "Placeholder — Present",
+          "location": "Remote · Seoul, South Korea",
+          "highlights": [
+            "Placeholder highlight about query execution or storage engine work.",
+            "Placeholder highlight about memory management, swap, or the page cache.",
+            "Placeholder highlight about a performance investigation or a measurable win."
+          ]
+        },
+        {
+          "role": "Placeholder Role — Systems Engineer",
+          "org": "Placeholder Company",
+          "period": "Placeholder — Placeholder",
+          "location": "Placeholder",
+          "highlights": [
+            "Placeholder highlight.",
+            "Placeholder highlight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "kind": "projects",
+      "title": "Projects",
+      "icon": "🧪",
+      "summary": "Placeholder summary of side projects and experiments.",
+      "items": [
+        {
+          "name": "Window is RAM",
+          "description": "This site. The browser window width is physical memory; resume sections page in and out like a real LRU cache.",
+          "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+          "link": null
+        },
+        {
+          "name": "Placeholder Project",
+          "description": "Placeholder description of a project involving databases or Linux internals.",
+          "stack": ["Placeholder", "Placeholder"],
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "kind": "skills",
+      "title": "Skills",
+      "icon": "⚙️",
+      "summary": "Placeholder summary spanning databases, Linux internals, and web tooling.",
+      "items": [
+        {
+          "category": "Databases",
+          "skills": ["Query execution", "Storage engines", "SingleStore", "Placeholder"]
+        },
+        {
+          "category": "Linux & Systems",
+          "skills": ["Memory management", "cgroups", "Page cache & swap", "perf"]
+        },
+        {
+          "category": "Languages",
+          "skills": ["C", "C++", "Go", "TypeScript"]
+        },
+        {
+          "category": "Web",
+          "skills": ["Next.js", "React", "Node.js"]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "kind": "contact",
+      "title": "Contact",
+      "icon": "📡",
+      "summary": "Placeholder contact details.",
+      "paragraphs": [
+        "Placeholder note inviting recruiters or engineers to reach out."
+      ],
+      "links": [
+        { "label": "Email", "value": "placeholder@example.com", "href": "mailto:placeholder@example.com" },
+        { "label": "GitHub", "value": "github.com/MichelMabinuola", "href": "https://github.com/MichelMabinuola" },
+        { "label": "LinkedIn", "value": "linkedin.com/in/placeholder", "href": "#" }
+      ]
+    }
+  ]
+}
