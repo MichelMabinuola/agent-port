@@ -83,6 +83,11 @@ const data = resumeData as ResumeData;
 export const resumeMeta: ResumeMeta = data.meta;
 export const resumeSections: ResumeSection[] = data.sections;
 
+/** Each section is one 4 KiB page, so section i lives at virtual address i * 0x1000. */
+export function pageAddress(index: number): string {
+  return `0x${(index * 0x1000).toString(16).padStart(4, "0")}`;
+}
+
 export function getSection(id: string): ResumeSection | undefined {
   return resumeSections.find((section) => section.id === id);
 }
